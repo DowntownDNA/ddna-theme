@@ -1,0 +1,21 @@
+#module-speakers {
+	@extend %module-home;
+	background-image: url('../images/square_bg.png');
+
+	.speaker {
+	    padding-left: 0;
+	    padding-right: 0;
+
+	    a {
+	    	min-height:300px;
+	    	display:block;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: none;
+				color:$white;
+				background-color:$bil-blue;
+			}	    	
+	    }
+	}
+}

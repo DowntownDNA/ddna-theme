@@ -1,0 +1,31 @@
+body.post-type-archive-member {
+	.member {
+		min-height: 150px;
+		overflow: hidden;
+		padding-bottom: 25px;
+
+		div.thumbnail-container {
+			img {
+				width:100%;
+			}
+		}
+
+		@include breakpoint(sm) {
+			&:nth-child(1n) {
+				clear:none;
+			}
+			&:nth-child(2n+1) {
+				clear:left;
+			}
+		}
+
+		@include breakpoint(md) {
+			&:nth-child(1n) {
+				clear:none;
+			}
+			&:nth-child(4n+1) {
+				clear:left;
+			}
+		}
+	}
+}

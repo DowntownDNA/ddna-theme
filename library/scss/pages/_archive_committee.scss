@@ -1,0 +1,11 @@
+body.post-type-archive-committee {	
+	.committee {
+		min-height: 150px;
+		overflow: hidden;
+		padding-bottom: 25px;
+
+		p.members span {
+			@extend %inline-list;
+		}
+	}
+}

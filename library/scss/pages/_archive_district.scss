@@ -1,0 +1,19 @@
+body.post-type-archive-district {
+	.district {
+		min-height: 150px;
+		overflow: hidden;
+		padding-bottom: 25px;
+
+		.representatives {
+			span {
+				@extend %inline-list;
+			}
+		}
+
+		.buildings {
+			span {
+				@extend %inline-list;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+#module-districts {
+	@extend %module-home;
+
+	color: $white;
+	background: url('../images/world_map.png') 50% 50% no-repeat $bil-blue;
+	-ms-background-size: contain;
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+	.stats {
+		font-weight: bolder;
+		text-shadow: 2px 2px rgba(0,0,0,.2);
+		line-height: 1.2;
+	}
+
+	.districts-list {
+		ul {
+			margin-top: 10px;
+			list-style: none;
+			color:$white;
+			padding-left:65px;
+
+			li {
+				white-space: nowrap;
+				line-height: 2.3em;
+				font-size: 39px;
+				font-weight:bolder;
+			}
+
+			a, a:visited {
+				color:$white;
+				text-decoration:none;
+			}
+		}
+	}
+}

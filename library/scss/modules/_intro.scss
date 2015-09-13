@@ -1,0 +1,25 @@
+#module-intro {
+	@extend %module-home;
+	
+	color: $white;
+	background-color: $black;
+	
+	background-size: cover;	
+
+	.content {
+		border-top: 2px solid rgba( $light-gray, .4 );
+		border-bottom: 2px solid rgba( $light-gray, .4);
+		padding: 50px 240px;
+		background: rgba( $white, .05 );
+	
+		p {
+			font-size: 1.4em;
+			text-align: center;
+			padding-bottom: 10px;
+
+			&:last-child {
+				padding-bottom: 5px;
+			}
+		}
+	}
+}

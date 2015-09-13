@@ -1,0 +1,102 @@
+//************************************************************************
+//
+// Header Styles
+//
+//************************************************************************
+
+header#header {
+	nav#nav.navbar {
+		margin-bottom:0px;
+	}
+}
+
+//************************************************************************
+//
+// Navigation Styles
+//
+//************************************************************************
+
+.navbar-bil {
+	background-color: $bil-blue;
+	border: 0px;
+    max-height: 50px;
+    overflow: hidden;
+
+	.navbar-brand {
+	    float: left;
+	    height: 50px;
+	    padding: 15px 15px;
+	    font-size: 24px;
+	    line-height: 20px;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	}
+
+
+	.nav>li>a:focus, .nav>li>a:hover {
+		background-color: $bil-dark-blue;
+		color: $white;
+	}
+
+	a, a:visited {
+		color: $light-gray;
+
+		&:hover {
+			color: $white;
+		}
+	}
+
+	.dropdown-menu>li>a, .dropdown-menu>li>a:visited, .dropdown-menu>li>a:hover {
+		color:$black;
+	}
+
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+		background:$white;
+	}
+
+	.navbar-toggle {
+		background: $light-gray;
+
+		.icon-bar {
+			background-color: $bil-blue;
+		}
+	}
+
+	#primary-nav-menu {
+		text-transform: uppercase;
+	    font-weight: 700;
+
+	    li.active {
+			background-color: $bil-dark-blue;
+
+	    }
+	}
+
+
+}
+
+//************************************************************************
+//
+// Social Icons (header)
+//
+//************************************************************************
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+
+.soc-facebook:before {
+    content:'b';
+}
+
+.soc-github:before {
+    content:'Q';
+}
